@@ -1,5 +1,5 @@
 const express = require('express');
-const { runFullCorridorScan } = require('../zone-scraper-system');
+const { runFullCorridorScan } = require('./zone-scraper-system');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
